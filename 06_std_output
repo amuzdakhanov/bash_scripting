@@ -1,0 +1,9 @@
+#! /bin/bash
+#===std out in file1, std err in file2===
+#ls +al 1>../file1.txt 2>../file2.txt
+
+#===std_out and std_err in one file===
+#ls +al > ../file1.txt 2>&1
+
+#===std_out and std_err in one file(shortcut for above)===
+ls +al >& file1.txt 
