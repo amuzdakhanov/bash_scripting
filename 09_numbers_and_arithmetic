@@ -1,0 +1,10 @@
+#! /bin/bash
+echo "write first number"
+read n1
+echo "write second number"
+read n2
+
+echo "sum=$((n1+n2))"
+echo "obase=10; devision=$(expr $n1 / $n2)" 
+
+
